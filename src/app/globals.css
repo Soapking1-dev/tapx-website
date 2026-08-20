@@ -70,5 +70,5 @@ body {
 }
 
 .marquee-track {
-  animation: marquee-scroll 28s linear infinite;
+  animation: marquee-scroll 16s linear infinite;
 }

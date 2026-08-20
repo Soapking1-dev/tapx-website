@@ -23,13 +23,13 @@ export function LogoMarquee() {
             <div
               key={`${item.id}-${i}`}
               title={item.name}
-              className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border border-line bg-white shadow-sm"
+              className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl border border-line bg-white shadow-sm"
             >
               <Image
                 src={item.logo}
                 alt={`הלוגו של ${item.name}`}
                 fill
-                sizes="80px"
+                sizes="128px"
                 className="object-cover"
               />
             </div>
