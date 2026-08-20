@@ -68,14 +68,16 @@ export const USE_CASES = [
 ] as const;
 
 // Real completed projects photographed on-site by TAPX (source: tapx.shop
-// product gallery, Aug 2026). Categories/labels reflect only what is
-// legible in the photos themselves.
+// product gallery, Aug 2026). Names/logos verified against each business's
+// own website, Instagram, or Facebook page — not guessed from generic
+// name matches.
 export const GALLERY = [
   {
     id: "nook-cafe",
     name: "Nook Café",
-    category: "בית קפה",
+    category: "בית קפה · רחובות",
     image: "/images/product-2.jpg",
+    logo: "/logos/nook.jpg",
     focus: "38% 42%",
     colors: ["#c99a6b", "#3b2417", "#f4ead9"],
     link: "ביקורות בגוגל",
@@ -84,8 +86,9 @@ export const GALLERY = [
   {
     id: "hapina",
     name: "הפינה",
-    category: "בית קפה",
+    category: "בית קפה · רחובות",
     image: "/images/product-4.jpg",
+    logo: "/logos/hapina.jpg",
     focus: "45% 38%",
     colors: ["#caa06a", "#5a3b22", "#efe6d8"],
     link: "ביקורות בגוגל",
@@ -93,29 +96,32 @@ export const GALLERY = [
   },
   {
     id: "get-phone",
-    name: "Get Phone",
+    name: "Get Phone רחובות",
     category: "חנות סלולר",
     image: "/images/product-5.jpg",
+    logo: "/logos/getphone.jpg",
     focus: "48% 45%",
     colors: ["#111111", "#ff8a1e", "#ffffff"],
     link: "ביקורות בגוגל",
     note: "שחור וכתום נטו, עם דמות המותג משולבת מעל קוד ה-QR.",
   },
   {
-    id: "hummus-place",
-    name: "חומוסיה",
-    category: "מזון",
+    id: "kazablan",
+    name: "קזבלן — חומוס עם כבוד",
+    category: "מזון · רחובות",
     image: "/images/product-3.jpg",
+    logo: "/logos/kazablan.png",
     focus: "50% 40%",
     colors: ["#a9d3e0", "#c98a4b", "#ffffff"],
     link: "ביקורות בגוגל",
     note: "עיצוב נמס בהשראת המוצר עצמו, בצבעי המיתוג של העסק.",
   },
   {
-    id: "popsicle-shop",
-    name: "חנות ארטיקים",
-    category: "קמעונאות",
+    id: "lili-vanili",
+    name: "לילי ונילי",
+    category: "גלידריה · רחובות",
     image: "/images/product-6.jpg",
+    logo: "/logos/lilinili.jpg",
     focus: "center",
     colors: ["#f3b6c9", "#bfe6ef", "#ffffff"],
     link: "WhatsApp · אינסטגרם · פייסבוק",
